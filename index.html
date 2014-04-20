@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>2048</title>
+  <title>Atheneum Game</title>
 
   <link href="style/main.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="favicon.ico">
@@ -19,7 +19,7 @@
 <body>
   <div class="container">
     <div class="heading">
-      <h1 class="title">2048</h1>
+      <h1 class="title" >Atheneum</h1>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
@@ -27,7 +27,7 @@
     </div>
 
     <div class="above-game">
-      <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
+      <p class="game-intro" style= "text-align: justify">Join the images and get to know our company faces by merging the image tiles! You win the game when the image of our <strong>CEO - Mathias Wengeler - </strong> shows up!</p>
       <a class="restart-button">New Game</a>
     </div>
 
@@ -35,7 +35,7 @@
       <div class="game-message">
         <p></p>
         <div class="lower">
-	        <a class="keep-playing-button">Keep going</a>
+          <a class="keep-playing-button">Keep going</a>
           <a class="retry-button">Try again</a>
         </div>
       </div>
@@ -73,15 +73,26 @@
     </div>
 
     <p class="game-explanation">
-      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same image touch, they <strong>merge into one!</strong>
     </p>
     <hr>
-    <p>
-    <strong class="important">Note:</strong> This site is the official version of 2048. You can play it on your phone via <a href="http://git.io/2048">http://git.io/2048.</a> All other apps or sites are derivatives or fakes, and should be used with caution.
+    <p style="text-align: justify;"> <strong>Note:</strong> Math and Logic behind the game: Considering every tile image is a power of 2 (Nikita = 2; Claudia = 4; Pranshu = 8 etc), a player to win the game (Win = Mathias Wengeler =  2048) would ideally need to make 2^{11-1}-1=1023 matches. A single tile needs to be doubled ten times to get from Nikita (2) to Mathias (2048) (nine times if starting from a four (Claudia)). <a href="http://www.atheneum-partners.com/">Atheneum</a> 
     </p>
     <hr>
+    <p style="text-align: justify;"> In order to solve the game please follow the below image sequence. Please consider that the hierarchy within each company division (SPMs, Operations, MDs) has been randomly decided.</p>
     <p>
-    Created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
+    <strong class="important">Senior PMs:</strong> Nikita (2), Claudia (4), Pranshu (8), Kaspar (16)</p>
+    <p>
+    <strong class="important">Operations:</strong> Felipe (32), Aiste (64), Sebastian (128)</p>
+    <p>
+    <strong class="important">Managing Directors:</strong> Marta (256), Carlos (512), Ammad (1024)</p>
+    <p>
+    <strong class="important">CEO:</strong> Mathias (2048)
+    </p> 
+    <p style="text-align: justify;">
+    <strong>PS:</strong>Please do not get desperate if you do not manage to solve the game. Statistics in order similar game, assuming the creation of a 2048 tile, show that just 1% of total games ended in a win, and just 5 to 10 percent of total players have been able to solve it.</p>
+    <hr>
+    <p style="text-align: justify;">Created by <a href="http://www.linkedin.com/profile/view?id=106724681&trk=nav_responsive_tab_profile_pic" target="_blank">MN.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
     </p>
   </div>
 
